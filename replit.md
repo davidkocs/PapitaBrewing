@@ -91,10 +91,18 @@ This is a full-stack web application for Papita Brewing, a craft brewery website
 - **Environment Variables**: DATABASE_URL required for PostgreSQL connection
 - **Migration Command**: `npm run db:push` applies schema changes to database
 
-## Changelog
+## Recent Changes
 
-Changelog:
-- June 25, 2025. Initial setup
+- June 25, 2025: Initial setup of Papita Brewing website
+- June 25, 2025: Created complete brewery website with sloth mascot theme
+  - Built hero section with brewery atmosphere background
+  - Added about section explaining "slow brewing" philosophy
+  - Created beer menu showcasing 6 craft beers with descriptions
+  - Added gallery section with brewery photos
+  - Built events section with upcoming brewery activities
+  - Created contact form and brewery information section
+  - Implemented consistent logo styling across all sections
+  - Applied color scheme from logo (blue, red, yellow) throughout site
 
 ## User Preferences
 
