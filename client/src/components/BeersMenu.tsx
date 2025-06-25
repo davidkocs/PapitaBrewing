@@ -1,5 +1,6 @@
 import tenTenTwentyImage from "@assets/TenTenTwenty_1750875081132.jpg";
 import threeToedImage from "@assets/3Toed_5x4_1750875505592.jpg";
+import blondeChalkImage from "@assets/BlondeChalkAle_1750875866102.jpg";
 
 export default function BeersMenu() {
   const beers = [
@@ -20,12 +21,12 @@ export default function BeersMenu() {
       image: tenTenTwentyImage
     },
     {
-      name: "Lazy Sunday Stout",
-      abv: "8.5% ABV",
-      ibu: "35 IBU",
-      description: "Rich and velvety with notes of chocolate and coffee. Perfect for those moments when you want to slow down and savor.",
-      price: "$8.00",
-      image: "https://images.unsplash.com/photo-1535958636474-b021ee887b13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+      name: "Blonde Chalk Ale",
+      abv: "4.5% ABV",
+      ibu: "21 IBU",
+      description: "This light, easy drinking blond ale showcases a malt flavor with no hop bitterness and commemorates our Jayhawk family and friends.",
+      price: "$6.50",
+      image: blondeChalkImage
     },
     {
       name: "Papita Wheat",
