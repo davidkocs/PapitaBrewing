@@ -16,7 +16,7 @@ export default function Footer() {
             {/* Logo & Description */}
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
-                <img src={papitaLogo} alt="Papita Brewing Logo" className="h-12 w-12 rounded-full" />
+                <img src={papitaLogo} alt="Papita Brewing Logo" className="h-12 w-12 rounded-lg object-contain bg-white p-1" />
                 <span className="text-2xl font-display font-bold">Papita Brewing</span>
               </div>
               <p className="text-gray-400 mb-4">
