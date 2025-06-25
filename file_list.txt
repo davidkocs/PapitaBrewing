@@ -1,0 +1,34 @@
+Key files for your Papita Brewing website:
+
+CONFIGURATION FILES:
+- package.json (dependencies)
+- vite.config.ts (build config)
+- tailwind.config.ts (styling)
+- tsconfig.json (TypeScript config)
+
+MAIN CONTENT FILES:
+- client/index.html (main HTML)
+- client/src/main.tsx (app entry)
+- client/src/App.tsx (main app component)
+- client/src/index.css (global styles)
+
+COMPONENTS (the main content you'll want to edit):
+- client/src/components/Navigation.tsx
+- client/src/components/Hero.tsx
+- client/src/components/About.tsx
+- client/src/components/BeersMenu.tsx
+- client/src/components/Gallery.tsx
+- client/src/components/Events.tsx
+- client/src/components/Contact.tsx
+- client/src/components/Footer.tsx
+
+SERVER FILES:
+- server/index.ts
+- server/routes.ts
+- server/vite.ts
+- server/storage.ts
+
+ASSETS:
+- attached_assets/Papita Brewing - logo_1750859264654.jpg
+
+You can copy these files individually by opening each one and using Ctrl+A, Ctrl+C to copy the content.
