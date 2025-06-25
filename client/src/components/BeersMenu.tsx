@@ -17,6 +17,14 @@ export default function BeersMenu() {
       image: threeToedImage
     },
     {
+      name: "Hair of the Phog",
+      abv: "4.7% ABV",
+      ibu: "67 IBU",
+      description: "Flagship Hazy IPA bursting with citrus and tangerine flavor. Tradition beer for the annual KU basketball game at Allen Fieldhouse with friends.",
+      price: "$7.50",
+      image: hairOfThePhogImage
+    },
+    {
       name: "Ten Ten Twenty",
       abv: "5.5% ABV",
       ibu: "77 IBU",
@@ -55,14 +63,6 @@ export default function BeersMenu() {
       description: "Light, easy-drinking ale with a crisp finish. Commemorates Zach and Jordyn's July 12, 2025 wedding celebration.",
       price: "$6.50",
       image: hoppilyEverAfterImage
-    },
-    {
-      name: "Hair of the Phog",
-      abv: "4.7% ABV",
-      ibu: "67 IBU",
-      description: "Flagship Hazy IPA bursting with citrus and tangerine flavor. Tradition beer for the annual KU basketball game at Allen Fieldhouse with friends.",
-      price: "$7.50",
-      image: hairOfThePhogImage
     }
   ];
 
