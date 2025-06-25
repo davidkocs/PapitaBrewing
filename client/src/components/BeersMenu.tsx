@@ -2,6 +2,7 @@ import tenTenTwentyImage from "@assets/TenTenTwenty_1750875081132.jpg";
 import threeToedImage from "@assets/3Toed_5x4_1750875505592.jpg";
 import blondeChalkImage from "@assets/BlondeChalkAle_1750875866102.jpg";
 import applesOfMyEyeImage from "@assets/ApplesOfMyEye_1750876020824.jpg";
+import iDoHefeweizen from "@assets/I DO Hefeweizen option 2_1750876155957.jpg";
 
 export default function BeersMenu() {
   const beers = [
@@ -38,12 +39,12 @@ export default function BeersMenu() {
       image: applesOfMyEyeImage
     },
     {
-      name: "Hangout Amber",
-      abv: "6.8% ABV",
-      ibu: "28 IBU",
-      description: "Smooth amber ale with caramel malts and subtle hop balance. The perfect beer for hanging out with friends.",
-      price: "$7.00",
-      image: "https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+      name: "I DO",
+      abv: "4.6% ABV",
+      ibu: "14 IBU",
+      description: "Refreshing, unfiltered wheat beer with notes of banana, clove, and citrus. Commemorates Eric and Maddy's 12-11-21 wedding celebration.",
+      price: "$6.50",
+      image: iDoHefeweizen
     },
     {
       name: "Tropical Sloth Sour",
