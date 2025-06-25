@@ -66,10 +66,9 @@
   }
   
   .logo-font {
-    font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 900;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.02em;
   }
   
   html {
