@@ -28,7 +28,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
             <img src={papitaLogo} alt="Papita Brewing Logo" className="h-12 w-12 rounded-lg object-contain bg-white p-1" />
-            <span className="text-white text-xl font-bold">Papita Brewing</span>
+            <span className="text-white text-xl font-bold logo-font">Papita Brewing</span>
           </div>
           
           <div className="hidden md:flex space-x-8">
