@@ -1,12 +1,14 @@
+import tenTenTwentyImage from "@assets/TenTenTwenty_1750875081132.jpg";
+
 export default function BeersMenu() {
   const beers = [
     {
-      name: "Sloth's Slow IPA",
-      abv: "7.2% ABV",
-      ibu: "65 IBU",
-      description: "A hop-forward IPA with tropical fruit notes and a smooth finish. Extended dry-hopping gives it complexity that unfolds slowly.",
+      name: "Ten Ten Twenty",
+      abv: "5.5% ABV",
+      ibu: "77 IBU",
+      description: "This hoppy american pale ale showcases citra hops and commemorates Megan and Collin's 10/10/20 wedding celebration.",
       price: "$7.50",
-      image: "https://images.unsplash.com/photo-1608270586620-248524c67de9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+      image: tenTenTwentyImage
     },
     {
       name: "Lazy Sunday Stout",
