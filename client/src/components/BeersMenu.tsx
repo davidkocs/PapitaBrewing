@@ -1,6 +1,7 @@
 import tenTenTwentyImage from "@assets/TenTenTwenty_1750875081132.jpg";
 import threeToedImage from "@assets/3Toed_5x4_1750875505592.jpg";
 import blondeChalkImage from "@assets/BlondeChalkAle_1750875866102.jpg";
+import applesOfMyEyeImage from "@assets/ApplesOfMyEye_1750876020824.jpg";
 
 export default function BeersMenu() {
   const beers = [
@@ -29,12 +30,12 @@ export default function BeersMenu() {
       image: blondeChalkImage
     },
     {
-      name: "Papita Wheat",
-      abv: "5.2% ABV",
-      ibu: "18 IBU",
-      description: "Light and refreshing wheat beer with hints of citrus and coriander. Our signature brew that started it all.",
-      price: "$6.50",
-      image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+      name: "Apples of My Eye",
+      abv: "6.4% ABV",
+      ibu: "0 IBU",
+      description: "This sweet hard cider showcases 100% fresh apples and commemorates Megan and Kerrie's preference for ciders instead of beer.",
+      price: "$7.00",
+      image: applesOfMyEyeImage
     },
     {
       name: "Hangout Amber",
