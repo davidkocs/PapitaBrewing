@@ -4,6 +4,7 @@ import blondeChalkImage from "@assets/BlondeChalkAle_1750875866102.jpg";
 import applesOfMyEyeImage from "@assets/ApplesOfMyEye_1750876020824.jpg";
 import iDoHefeweizen from "@assets/I DO Hefeweizen option 2_1750876155957.jpg";
 import hoppilyEverAfterImage from "@assets/Hoppily Wheat Ale Final_1750890179307.png";
+import hairOfThePhogImage from "@assets/20160104_195455_1750891192618.jpg";
 
 export default function BeersMenu() {
   const beers = [
@@ -56,12 +57,12 @@ export default function BeersMenu() {
       image: hoppilyEverAfterImage
     },
     {
-      name: "Chill Pilsner",
-      abv: "5.6% ABV",
-      ibu: "32 IBU",
-      description: "Crisp and clean with a floral hop aroma. The perfect beer for those laid-back moments.",
-      price: "$6.75",
-      image: "https://images.unsplash.com/photo-1618183479302-1e0aa382c36b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+      name: "Hair of the Phog",
+      abv: "4.7% ABV",
+      ibu: "67 IBU",
+      description: "Flagship Hazy IPA bursting with citrus and tangerine flavor. Tradition beer for the annual KU basketball game at Allen Fieldhouse with friends.",
+      price: "$7.50",
+      image: hairOfThePhogImage
     }
   ];
 
