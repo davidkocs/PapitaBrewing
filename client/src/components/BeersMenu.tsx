@@ -65,19 +65,19 @@ export default function BeersMenu() {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {beers.map((beer, index) => (
-            <div key={index} className="brew-card bg-gray-50 rounded-xl shadow-lg overflow-hidden">
+            <div key={index} className="brew-card bg-gray-50 rounded-xl shadow-lg overflow-hidden flex flex-col h-full">
               <img 
                 src={beer.image} 
                 alt={`${beer.name} beer`} 
                 className="w-full h-64 object-contain bg-gray-100"
               />
-              <div className="p-6">
+              <div className="p-6 flex-1 flex flex-col">
                 <h3 className="text-2xl font-display font-bold papita-brown mb-2">{beer.name}</h3>
                 <p className="papita-red font-semibold mb-3">{beer.abv} | {beer.ibu}</p>
-                <p className="text-gray-700 mb-4">
+                <p className="text-gray-700 mb-4 flex-1">
                   {beer.description}
                 </p>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center mt-auto">
                   <span className="papita-blue font-bold text-lg">{beer.price}</span>
                   <button className="bg-papita-blue text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition-colors">
                     Try It
