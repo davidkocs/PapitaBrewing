@@ -3,6 +3,7 @@ import threeToedImage from "@assets/3Toed_5x4_1750875505592.jpg";
 import blondeChalkImage from "@assets/BlondeChalkAle_1750875866102.jpg";
 import applesOfMyEyeImage from "@assets/ApplesOfMyEye_1750876020824.jpg";
 import iDoHefeweizen from "@assets/I DO Hefeweizen option 2_1750876155957.jpg";
+import hoppilyEverAfterImage from "@assets/Hoppily Wheat Ale Final_1750890179307.png";
 
 export default function BeersMenu() {
   const beers = [
@@ -47,12 +48,12 @@ export default function BeersMenu() {
       image: iDoHefeweizen
     },
     {
-      name: "Tropical Sloth Sour",
-      abv: "4.8% ABV",
-      ibu: "8 IBU",
-      description: "Tart and refreshing with mango and passion fruit. A seasonal favorite that brings the tropics to your glass.",
-      price: "$8.50",
-      image: "https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+      name: "Hoppily Ever After",
+      abv: "4.6% ABV",
+      ibu: "7 IBU",
+      description: "Light, easy-drinking ale with a crisp finish. Commemorates Zach and Jordyn's July 12, 2025 wedding celebration.",
+      price: "$6.50",
+      image: hoppilyEverAfterImage
     },
     {
       name: "Chill Pilsner",
