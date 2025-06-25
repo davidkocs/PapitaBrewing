@@ -23,6 +23,12 @@ export default function About() {
             <div>
               <h3 className="text-3xl font-display font-bold papita-brown mb-6">The Papita Philosophy</h3>
               <p className="text-lg text-gray-700 mb-6">
+                Papita Brewing is the culmination of David Kocs' love for unique craft beers, 8 years of homebrewing, formal education in brewing science and operations, and more than 20 years of successful business ownership.
+              </p>
+              <p className="text-lg text-gray-700 mb-6">
+                The Papita Brewing name is inspired by a special memory signifying the close relationship to his daughters, Megan and Kerrie. The term "Papita" originated on a trip to Costa Rica in 2018. During a tropical rain forest tour, Megan and Kerrie held a baby sloth. The sloth used its claws to grasp their shirt and closely hold on for comfort and safety. The girls began referring to David as Papa Sloth, which transformed to Papita.
+              </p>
+              <p className="text-lg text-gray-700 mb-6">
                 Founded in 2018 by a group of friends who shared a love for great beer and the simple pleasures of life, 
                 Papita Brewing embodies the spirit of taking time to enjoy what matters most.
               </p>
