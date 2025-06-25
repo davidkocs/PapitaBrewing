@@ -39,7 +39,7 @@ export default function BeersMenu() {
       image: applesOfMyEyeImage
     },
     {
-      name: "I DO",
+      name: "I DO Hefeweizen",
       abv: "4.6% ABV",
       ibu: "14 IBU",
       description: "Refreshing, unfiltered wheat beer with notes of banana, clove, and citrus. Commemorates Eric and Maddy's 12-11-21 wedding celebration.",
