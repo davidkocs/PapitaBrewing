@@ -29,7 +29,7 @@ export default function Hero() {
       <div className="relative z-10 text-center text-white px-4">
         <img src={papitaLogo} alt="Papita Brewing Logo" className="mx-auto mb-8 h-40 w-40 rounded-xl shadow-2xl object-contain bg-white p-2" />
         <h1 className="text-5xl md:text-7xl font-display font-bold mb-6">
-          Welcome to <span className="papita-blue">Papita Brewing</span>
+          Welcome to <span className="papita-blue logo-font">Papita Brewing</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
           Where craft meets comfort. Slow-brewed beers, fast friendships, and the perfect pace for life.
