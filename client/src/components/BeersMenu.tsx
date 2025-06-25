@@ -1,7 +1,16 @@
 import tenTenTwentyImage from "@assets/TenTenTwenty_1750875081132.jpg";
+import threeToedImage from "@assets/3Toed_5x4_1750875505592.jpg";
 
 export default function BeersMenu() {
   const beers = [
+    {
+      name: "3-Toed",
+      abv: "7% ABV",
+      ibu: "98 IBU",
+      description: "Original IPA brewed by Papita Brewing to highlight the 3-Toed Sloth, the brewery namesake.",
+      price: "$7.50",
+      image: threeToedImage
+    },
     {
       name: "Ten Ten Twenty",
       abv: "5.5% ABV",
