@@ -6,16 +6,16 @@ import kegeratorSetup from "@assets/f4afaae5-604f-4760-ac1f-a26ac8b3069b_1750965
 export default function Gallery() {
   const galleryImages = [
     {
-      src: blondeChalksBottles,
-      alt: "Blonde Chalk Ale bottles ready for distribution"
-    },
-    {
       src: brewingProcess,
       alt: "Brewing process with grain in the mash tun"
     },
     {
       src: tapHandles,
       alt: "Custom tap handles showing beer selection"
+    },
+    {
+      src: blondeChalksBottles,
+      alt: "Blonde Chalk Ale bottles ready for distribution"
     },
     {
       src: kegeratorSetup,
