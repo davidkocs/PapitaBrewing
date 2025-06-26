@@ -1,8 +1,3 @@
-import blondeChalksBottles from "@assets/20201006_191609_1750965949029.jpg";
-import brewingProcess from "@assets/20230624_042937_1750965949032.jpg";
-import tapHandles from "@assets/20230708_161210_1750965949036.jpg";
-import kegeratorSetup from "@assets/f4afaae5-604f-4760-ac1f-a26ac8b3069b_1750965949042.jpg";
-
 export default function About() {
   return (
     <section id="about" className="py-20 bg-gray-50 sloth-pattern">
@@ -17,25 +12,11 @@ export default function About() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="grid grid-cols-2 gap-4">
+            <div>
+              {/* Brewery founders working with brewing equipment */}
               <img 
-                src={blondeChalksBottles} 
-                alt="Blonde Chalk Ale bottles ready for distribution" 
-                className="rounded-xl shadow-lg w-full h-auto"
-              />
-              <img 
-                src={brewingProcess} 
-                alt="Brewing process with grain in the mash tun" 
-                className="rounded-xl shadow-lg w-full h-auto"
-              />
-              <img 
-                src={tapHandles} 
-                alt="Custom tap handles showing beer selection" 
-                className="rounded-xl shadow-lg w-full h-auto"
-              />
-              <img 
-                src={kegeratorSetup} 
-                alt="Kegerator setup with Papita Brewing branding" 
+                src="https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+                alt="Brewery founders crafting beer" 
                 className="rounded-xl shadow-lg w-full h-auto"
               />
             </div>
