@@ -21,7 +21,7 @@ export default function About() {
               />
             </div>
             <div>
-              <h3 className="text-3xl font-display font-bold papita-brown mb-6">The Papita Philosophy</h3>
+              <h3 className="text-3xl font-display font-bold papita-brown mb-6">Papita History</h3>
               <p className="text-lg text-gray-700 mb-6">
                 Papita Brewing is the culmination of David Kocs' love for unique craft beers, 15 years of homebrewing, formal education in brewing science and operations, and more than 25 years of successful business ownership.
               </p>
