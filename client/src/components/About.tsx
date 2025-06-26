@@ -29,13 +29,9 @@ export default function About() {
                 The Papita Brewing name is inspired by a special memory signifying the close relationship to his daughters, Megan and Kerrie. The term "Papita" originated on a trip to Costa Rica in 2018. During a tropical rain forest tour, Megan and Kerrie held a baby sloth. The sloth used its claws to grasp their shirt and closely hold on for comfort and safety. The girls began referring to David as Papa Sloth, which transformed to Papita.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                Founded in 2018 by a group of friends who shared a love for great beer and the simple pleasures of life, 
-                Papita Brewing embodies the spirit of taking time to enjoy what matters most.
-              </p>
-              <p className="text-lg text-gray-700 mb-6">
                 Our sloth mascot isn't just cute - it's a reminder that the best things in life aren't rushed. 
-                From our extended fermentation processes to our cozy taproom atmosphere, we're all about 
-                savoring the moment.
+                Papita Brewing embodies the spirit of taking time to enjoy what matters most. We share a love for 
+                great beer, the simple pleasures of life, and savoring the moment.
               </p>
               <div className="flex flex-wrap gap-4">
                 <span className="bg-papita-yellow papita-blue px-4 py-2 rounded-full font-semibold">Small Batch</span>
