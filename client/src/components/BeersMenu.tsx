@@ -41,14 +41,6 @@ export default function BeersMenu() {
       image: blondeChalkImage
     },
     {
-      name: "Apples of My Eye",
-      abv: "6.4% ABV",
-      ibu: "0 IBU",
-      description: "This sweet hard cider showcases 100% fresh apples and commemorates Megan and Kerrie's preference for ciders instead of beer.",
-      price: "$7.00",
-      image: applesOfMyEyeImage
-    },
-    {
       name: "I DO Hefeweizen",
       abv: "4.6% ABV",
       ibu: "14 IBU",
@@ -63,6 +55,14 @@ export default function BeersMenu() {
       description: "Light, easy-drinking ale with a crisp finish. Commemorates Zach and Jordyn's July 12, 2025 wedding celebration.",
       price: "$6.50",
       image: hoppilyEverAfterImage
+    },
+    {
+      name: "Apples of My Eye",
+      abv: "6.4% ABV",
+      ibu: "0 IBU",
+      description: "This sweet hard cider showcases 100% fresh apples and commemorates Megan and Kerrie's preference for ciders instead of beer.",
+      price: "$7.00",
+      image: applesOfMyEyeImage
     }
   ];
 
