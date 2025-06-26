@@ -6,7 +6,7 @@ export default function About() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-display font-bold papita-blue mb-6">Our Story</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Like our mascot, we believe in taking things slow. Every beer is crafted with patience, 
+              Like the sloth, we believe in taking things slow. Every beer is crafted with patience, 
               passion, and a commitment to quality that can't be rushed.
             </p>
           </div>
