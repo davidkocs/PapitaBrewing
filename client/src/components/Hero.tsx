@@ -32,7 +32,7 @@ export default function Hero() {
           Welcome to <span className="papita-blue logo-font">Papita Brewing</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-          Where craft meets comfort. Slow-brewed beers, fast friendships, and the perfect pace for life.
+          Where craft meets comfort. Quality beers, fast friendships, lasting memories and the perfect pace for life.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button 
