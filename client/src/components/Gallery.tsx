@@ -2,24 +2,34 @@ import blondeChalksBottles from "@assets/20201006_191609_1750965949029.jpg";
 import brewingProcess from "@assets/20230624_042937_1750965949032.jpg";
 import tapHandles from "@assets/20230708_161210_1750965949036.jpg";
 import kegeratorSetup from "@assets/f4afaae5-604f-4760-ac1f-a26ac8b3069b_1750965949042.jpg";
+import brewingVideo from "@assets/20250606_172531 - Trim_1750966357311.mp4";
 
 export default function Gallery() {
-  const galleryImages = [
+  const galleryItems = [
     {
       src: brewingProcess,
-      alt: "Brewing process with grain in the mash tun"
+      alt: "Brewing process with grain in the mash tun",
+      type: "image"
+    },
+    {
+      src: brewingVideo,
+      alt: "Brewing process video",
+      type: "video"
     },
     {
       src: tapHandles,
-      alt: "Custom tap handles showing beer selection"
+      alt: "Custom tap handles showing beer selection",
+      type: "image"
     },
     {
       src: blondeChalksBottles,
-      alt: "Blonde Chalk Ale bottles ready for distribution"
+      alt: "Blonde Chalk Ale bottles ready for distribution",
+      type: "image"
     },
     {
       src: kegeratorSetup,
-      alt: "Kegerator setup with Papita Brewing branding"
+      alt: "Kegerator setup with Papita Brewing branding",
+      type: "image"
     }
   ];
 
@@ -34,14 +44,28 @@ export default function Gallery() {
           </p>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
-          {galleryImages.map((image, index) => (
-            <img 
-              key={index}
-              src={image.src} 
-              alt={image.alt} 
-              className="w-full h-48 md:h-64 object-cover rounded-lg hover:opacity-90 transition-opacity cursor-pointer"
-            />
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 max-w-6xl mx-auto">
+          {galleryItems.map((item, index) => (
+            item.type === "video" ? (
+              <video 
+                key={index}
+                src={item.src}
+                className="w-full h-48 md:h-64 object-cover rounded-lg hover:opacity-90 transition-opacity cursor-pointer"
+                controls
+                muted
+                loop
+                playsInline
+              >
+                Your browser does not support the video tag.
+              </video>
+            ) : (
+              <img 
+                key={index}
+                src={item.src} 
+                alt={item.alt} 
+                className="w-full h-48 md:h-64 object-cover rounded-lg hover:opacity-90 transition-opacity cursor-pointer"
+              />
+            )
           ))}
         </div>
       </div>
