@@ -72,8 +72,8 @@ export default function BeersMenu() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display font-bold papita-blue mb-6">Our Craft Beers</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Each beer tells a story. Discover our rotating selection of handcrafted brews, 
-            from hop-forward IPAs to smooth, malty stouts.
+            Each beer tells a story. Discover some of our popular handcrafted beers, 
+            from hop-forward IPAs to smooth, easy-drinking malty ales. Our beer recipes are designed for special events or year round enjoyment by friends and family.
           </p>
         </div>
         
