@@ -75,6 +75,17 @@ export default function BeersMenu() {
             Each beer tells a story. Discover some of our popular handcrafted beers, 
             from hop-forward IPAs to smooth, easy-drinking malty ales. Our beer recipes are designed for special events or year round enjoyment by friends and family.
           </p>
+          <p className="text-lg text-gray-500 max-w-2xl mx-auto mt-4">
+            Find our full selection of Papita Brewing beers on{" "}
+            <a 
+              href="https://untappd.com/PapitaBrewing/beer" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="papita-blue hover:underline font-semibold"
+            >
+              Untappd
+            </a>
+          </p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
