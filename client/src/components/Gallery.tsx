@@ -1,20 +1,25 @@
+import blondeChalksBottles from "@assets/20201006_191609_1750965949029.jpg";
+import brewingProcess from "@assets/20230624_042937_1750965949032.jpg";
+import tapHandles from "@assets/20230708_161210_1750965949036.jpg";
+import kegeratorSetup from "@assets/f4afaae5-604f-4760-ac1f-a26ac8b3069b_1750965949042.jpg";
+
 export default function Gallery() {
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1608270586620-248524c67de9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      alt: "Brewery interior with copper tanks"
+      src: blondeChalksBottles,
+      alt: "Blonde Chalk Ale bottles ready for distribution"
     },
     {
-      src: "https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      alt: "Beer tasting flight"
+      src: brewingProcess,
+      alt: "Brewing process with grain in the mash tun"
     },
     {
-      src: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      alt: "Brewery staff working"
+      src: tapHandles,
+      alt: "Custom tap handles showing beer selection"
     },
     {
-      src: "https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      alt: "Brewery taproom atmosphere"
+      src: kegeratorSetup,
+      alt: "Kegerator setup with Papita Brewing branding"
     }
   ];
 
