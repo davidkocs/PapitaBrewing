@@ -53,13 +53,9 @@ export default function Events() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-display font-bold papita-brown mb-2">{event.title}</h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-gray-600">
                   {event.description}
                 </p>
-                <div className="flex justify-between items-center text-sm papita-blue">
-                  <span><i className="fas fa-clock mr-1"></i>{event.time}</span>
-                  <span><i className="fas fa-dollar-sign mr-1"></i>{event.price}</span>
-                </div>
               </div>
             </div>
           ))}
