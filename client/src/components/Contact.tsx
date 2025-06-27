@@ -81,8 +81,7 @@ export default function Contact() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Contact Us</h2>
             <p className="text-xl papita-yellow max-w-3xl mx-auto">
-              Come hang out with us! Our taproom is open and welcoming. 
-              Bring your friends, bring your family, bring your appetite for great beer.
+              We'd love to hear from you! Whether you're curious about our latest brews, want a custom beer made for a special event, or just want to say cheers - drop us a message below.
             </p>
           </div>
           
