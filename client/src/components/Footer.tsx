@@ -24,16 +24,7 @@ export default function Footer() {
                 Where every sip tells a story and every moment is worth savoring.
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-papita-yellow transition-colors">
-                  <i className="fab fa-facebook-f text-xl"></i>
-                </a>
-                <a href="#" className="text-gray-400 hover:text-papita-yellow transition-colors">
-                  <i className="fab fa-instagram text-xl"></i>
-                </a>
-                <a href="#" className="text-gray-400 hover:text-papita-yellow transition-colors">
-                  <i className="fab fa-twitter text-xl"></i>
-                </a>
-                <a href="#" className="text-gray-400 hover:text-papita-yellow transition-colors">
+                <a href="https://untappd.com/PapitaBrewing" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-papita-yellow transition-colors">
                   <i className="fab fa-untappd text-xl"></i>
                 </a>
               </div>
@@ -90,10 +81,8 @@ export default function Footer() {
             <div>
               <h4 className="text-lg font-display font-bold mb-4">Contact</h4>
               <div className="space-y-2 text-gray-400">
-                <div>123 Brewery Lane</div>
-                <div>Craftville, CV 12345</div>
-                <div>(555) 123-BREW</div>
-                <div>hello@papitabrewing.com</div>
+                <div>St. Charles, MO</div>
+                <div>david.kocs@papitabrewing.com</div>
               </div>
             </div>
           </div>
