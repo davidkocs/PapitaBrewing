@@ -38,7 +38,7 @@ export default function Contact() {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Visit Us</h2>
+            <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Contact Us</h2>
             <p className="text-xl papita-yellow max-w-3xl mx-auto">
               Come hang out with us! Our taproom is open and welcoming. 
               Bring your friends, bring your family, bring your appetite for great beer.
@@ -54,18 +54,10 @@ export default function Contact() {
                 <div className="flex items-center">
                   <i className="fas fa-map-marker-alt papita-yellow mr-4 text-xl"></i>
                   <div>
-                    <div className="font-semibold">123 Brewery Lane</div>
-                    <div className="papita-yellow">Craftville, CV 12345</div>
+                    <div className="font-semibold">St. Charles, MO</div>
                   </div>
                 </div>
-                
-                <div className="flex items-center">
-                  <i className="fas fa-phone papita-yellow mr-4 text-xl"></i>
-                  <div>
-                    <div className="font-semibold">(555) 123-BREW</div>
-                    <div className="papita-yellow">Call for reservations</div>
-                  </div>
-                </div>
+
                 
                 <div className="flex items-center">
                   <i className="fas fa-envelope papita-yellow mr-4 text-xl"></i>
@@ -75,23 +67,7 @@ export default function Contact() {
                   </div>
                 </div>
               </div>
-              
-              {/* Hours */}
-              <h4 className="text-xl font-display font-bold mb-4">Hours</h4>
-              <div className="space-y-2 papita-yellow">
-                <div className="flex justify-between">
-                  <span>Monday - Thursday</span>
-                  <span>4:00 PM - 10:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Friday - Saturday</span>
-                  <span>12:00 PM - 11:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Sunday</span>
-                  <span>12:00 PM - 8:00 PM</span>
-                </div>
-              </div>
+
             </div>
             
             {/* Contact Form */}
