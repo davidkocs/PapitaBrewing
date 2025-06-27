@@ -30,7 +30,7 @@ This message was sent from the Papita Brewing website contact form.
 
     await mailService.send({
       to: 'david.kocs@papitabrewing.com',
-      from: 'noreply@papitabrewing.com', // This should be a verified sender in SendGrid
+      from: 'david.kocs@papitabrewing.com', // Use the same verified email as sender
       subject: `Contact Form: Message from ${formData.name}`,
       text: emailContent,
       replyTo: formData.email
@@ -39,6 +39,12 @@ This message was sent from the Papita Brewing website contact form.
     return true;
   } catch (error) {
     console.error('SendGrid email error:', error);
+    if (error && typeof error === 'object' && 'response' in error) {
+      const sendGridError = error as any;
+      console.error('SendGrid error details:', JSON.stringify(sendGridError.response?.body, null, 2));
+      console.error('SendGrid response status:', sendGridError.response?.status);
+      console.error('SendGrid response headers:', sendGridError.response?.headers);
+    }
     return false;
   }
 }
