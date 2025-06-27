@@ -36,7 +36,7 @@ export default function About() {
               <div className="flex flex-wrap gap-4">
                 <span className="bg-papita-yellow papita-blue px-4 py-2 rounded-full font-semibold">Small Batch</span>
                 <span className="bg-papita-yellow papita-blue px-4 py-2 rounded-full font-semibold">Locally Sourced</span>
-                <span className="bg-papita-yellow papita-blue px-4 py-2 rounded-full font-semibold">Eco-Friendly</span>
+                <span className="bg-papita-yellow papita-blue px-4 py-2 rounded-full font-semibold">Sloth-Friendly</span>
               </div>
             </div>
           </div>
