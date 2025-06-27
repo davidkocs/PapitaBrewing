@@ -38,8 +38,7 @@ export default function Events() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display font-bold papita-blue mb-6">Upcoming Events</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Join us for special events, tastings, and community gatherings. 
-            There's always something brewing at Papita!
+            There's always something brewing at Papita Brewing! Here are some upcoming special events, new releases, and community gatherings.
           </p>
         </div>
         
