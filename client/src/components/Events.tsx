@@ -11,10 +11,10 @@ export default function Events() {
       textColor: "text-white"
     },
     {
-      date: "22",
-      month: "JAN",
-      title: "Trivia Night",
-      description: "Test your knowledge while enjoying our craft beers. Prizes for the winning team!",
+      date: "1",
+      month: "AUG",
+      title: "Summer Beer",
+      description: "What's more refreshing than a creamy, juicy milkshake IPA bursting with tropical fruit. We are releasing sunshine in a glass - a Mango Citra Milkshake IPA and a Raspberry Milkshake IPA. Chill one, sip slow, and let summer happen.",
       time: "7:00 PM - 9:00 PM",
       price: "Free Entry",
       bgColor: "bg-papita-yellow",
