@@ -62,7 +62,7 @@ export default function Contact() {
                 <div className="flex items-center">
                   <i className="fas fa-envelope papita-yellow mr-4 text-xl"></i>
                   <div>
-                    <div className="font-semibold">hello@papitabrewing.com</div>
+                    <div className="font-semibold">david.kocs@papitabrewing.com</div>
                     <div className="papita-yellow">We'd love to hear from you</div>
                   </div>
                 </div>
