@@ -39,8 +39,7 @@ export default function Gallery() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Our Brewery</h2>
           <p className="text-xl papita-yellow max-w-3xl mx-auto">
-            Take a peek inside our brewing process and taproom atmosphere. 
-            Every corner tells the story of our passion for craft beer.
+            We are a small-batch home brewery crafting quality beers for family and friends. We don't just make beer - we make good times, great stories, lasting memories, and unforgettable sips. Come for the craft, stay for the community.
           </p>
         </div>
         
