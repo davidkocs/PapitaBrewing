@@ -90,7 +90,7 @@ export default function Footer() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center text-gray-400">
               <div className="mb-4 md:mb-0">
-                © 2024 Papita Brewing. All rights reserved. Drink responsibly.
+                © 2025 Papita Brewing. All rights reserved. Drink responsibly.
               </div>
               <div className="flex space-x-6">
                 <a href="#" className="hover:text-papita-yellow transition-colors">Privacy Policy</a>
