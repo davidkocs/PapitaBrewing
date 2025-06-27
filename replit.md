@@ -110,6 +110,11 @@ This is a full-stack web application for Papita Brewing, a craft brewery website
   - Added loading states, success/error notifications, and form validation
   - Updated hero section button text from "Visit Us" to "Contact Us"
   - Repositioned Untappd icon next to brewery name in footer
+- June 27, 2025: Removed contact form entirely for static hosting compatibility
+  - Simplified contact section to display only contact information
+  - Removed all form components and JavaScript state management
+  - Centered contact info layout with improved styling
+  - Website now fully static, ready for any hosting provider
 
 ## User Preferences
 
