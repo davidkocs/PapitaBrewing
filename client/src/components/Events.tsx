@@ -21,10 +21,10 @@ export default function Events() {
       textColor: "text-papita-blue"
     },
     {
-      date: "05",
-      month: "FEB",
-      title: "New Beer Release",
-      description: "Be the first to try our latest seasonal brew: \"Hibernation Porter\" - rich, dark, and perfect for winter.",
+      date: "20",
+      month: "OCT",
+      title: "Megan & Collin 5th Anniversary",
+      description: "It's the annual release of Ten Ten Twenty to celebrate Megan & Collin's wedding anniversary. The original wedding day beer is brewed annually and tapped in their home for family and friends to enjoy.",
       time: "4:00 PM - 8:00 PM",
       price: "Limited Release",
       bgColor: "bg-papita-brown",
