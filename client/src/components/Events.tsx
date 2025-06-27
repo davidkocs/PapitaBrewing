@@ -1,10 +1,10 @@
 export default function Events() {
   const events = [
     {
-      date: "15",
-      month: "JAN",
-      title: "Brewery Tour & Tasting",
-      description: "Join us for a behind-the-scenes look at our brewing process, followed by a guided tasting of our signature beers.",
+      date: "12",
+      month: "JUL",
+      title: "Zach & Jordyn",
+      description: "Release day! Our Hoppily Ever After Wheat Ale will be released in celebration of Zach & Jordyn's marriage.",
       time: "3:00 PM - 5:00 PM",
       price: "$25",
       bgColor: "bg-papita-red",
