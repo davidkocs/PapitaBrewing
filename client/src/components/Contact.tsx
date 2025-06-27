@@ -89,7 +89,7 @@ export default function Contact() {
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Info */}
             <div className="text-white">
-              <h3 className="text-2xl font-display font-bold mb-6">Get In Touch</h3>
+              <h3 className="text-2xl font-display font-bold mb-6">Got questions? Want to chat beer?</h3>
               
               <div className="space-y-4 mb-8">
                 <div className="flex items-center">
