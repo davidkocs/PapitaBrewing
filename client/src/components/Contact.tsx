@@ -16,7 +16,7 @@ export default function Contact() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Contact Us</h2>
             <p className="text-xl papita-yellow max-w-3xl mx-auto">
-              We'd love to hear from you! Whether you're curious about our latest brews, want a custom-made beer for a special event, or just want to say cheers - reach out to us directly.
+              We'd love to hear from you! Whether you're curious about our latest brews, want a custom-made beer for a special event, or just want to say cheers.
             </p>
           </div>
           
@@ -37,7 +37,6 @@ export default function Contact() {
                   <i className="fas fa-envelope papita-yellow mr-4 text-2xl"></i>
                   <div>
                     <a href="mailto:david.kocs@papitabrewing.com" className="text-xl font-semibold hover:underline">david.kocs@papitabrewing.com</a>
-                    <div className="papita-yellow text-lg mt-2">We'd love to hear from you</div>
                   </div>
                 </div>
               </div>
