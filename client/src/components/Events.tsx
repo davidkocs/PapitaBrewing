@@ -21,7 +21,7 @@ export default function Events() {
       textColor: "text-papita-blue"
     },
     {
-      date: "20",
+      date: "10",
       month: "OCT",
       title: "Megan & Collin 5th Anniversary",
       description: "It's the annual release of Ten Ten Twenty to celebrate Megan & Collin's wedding anniversary. The original wedding day beer is brewed annually and tapped in their home for family and friends to enjoy.",
