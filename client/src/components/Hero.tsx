@@ -45,7 +45,7 @@ export default function Hero() {
             onClick={scrollToContact}
             className="border-2 border-white text-white hover:bg-white hover:text-papita-blue px-8 py-3 rounded-lg font-semibold transition-colors"
           >
-            <i className="fas fa-map-marker-alt mr-2"></i>Visit Us
+            <i className="fas fa-map-marker-alt mr-2"></i>Contact Us
           </button>
         </div>
       </div>
