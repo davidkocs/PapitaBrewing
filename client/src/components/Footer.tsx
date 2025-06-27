@@ -77,7 +77,7 @@ export default function Footer() {
             
             {/* Contact Info */}
             <div>
-              <h4 className="text-lg font-display font-bold mb-4">Contact</h4>
+              <h4 className="text-lg font-display font-bold mb-4">Got questions? Want to chat beer?</h4>
               <div className="space-y-2 text-gray-400">
                 <div>St. Charles, MO</div>
                 <div>david.kocs@papitabrewing.com</div>
