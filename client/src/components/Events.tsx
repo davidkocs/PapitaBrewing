@@ -4,7 +4,7 @@ export default function Events() {
       date: "12",
       month: "JUL",
       title: "Zach & Jordyn",
-      description: "Release day! Our Hoppily Ever After Wheat Ale will be released in celebration of Zach & Jordyn's marriage.",
+      description: "Release day! Our Hoppily Ever After Wheat Ale will be released in celebration of Zach & Jordyn's marriage. And another special beer will be released for after party enjoyment - To Have and To Haze.",
       time: "3:00 PM - 5:00 PM",
       price: "$25",
       bgColor: "bg-papita-red",
