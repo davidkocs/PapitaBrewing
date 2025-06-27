@@ -54,7 +54,7 @@ export default function Contact() {
                 <div className="flex items-center">
                   <i className="fas fa-map-marker-alt papita-yellow mr-4 text-xl"></i>
                   <div>
-                    <div className="font-semibold">St. Charles, MO</div>
+                    <a href="https://maps.google.com/?q=St.+Charles,+MO" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline">St. Charles, MO</a>
                   </div>
                 </div>
 
