@@ -103,6 +103,13 @@ This is a full-stack web application for Papita Brewing, a craft brewery website
   - Created contact form and brewery information section
   - Implemented consistent logo styling across all sections
   - Applied color scheme from logo (blue, red, yellow) throughout site
+- June 27, 2025: Implemented functional contact form with email integration
+  - Added SendGrid email service integration
+  - Created email API endpoint (/api/contact) with form validation
+  - Updated contact form to send messages to david.kocs@papitabrewing.com
+  - Added loading states, success/error notifications, and form validation
+  - Updated hero section button text from "Visit Us" to "Contact Us"
+  - Repositioned Untappd icon next to brewery name in footer
 
 ## User Preferences
 
