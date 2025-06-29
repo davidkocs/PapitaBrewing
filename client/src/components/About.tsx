@@ -14,12 +14,12 @@ export default function About() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="flex justify-center">
               {/* Papita Brewing glass with sloth mascot logo */}
               <img 
                 src={papitaGlassImage} 
                 alt="Papita Brewing glass with sloth mascot logo" 
-                className="rounded-xl shadow-lg w-full h-auto"
+                className="rounded-xl shadow-lg max-w-sm h-auto"
               />
             </div>
             <div>
