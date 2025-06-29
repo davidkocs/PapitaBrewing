@@ -45,7 +45,7 @@ export default function Contact() {
             
             {/* Fun beer quote image */}
             <div className="flex justify-center">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 max-w-sm">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 max-w-xs">
                 <img 
                   src={beerQuoteImage} 
                   alt="Funny craft beer quote about drinking as a hobby" 
