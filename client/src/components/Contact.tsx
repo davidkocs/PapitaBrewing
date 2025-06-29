@@ -21,20 +21,20 @@ export default function Contact() {
             </p>
           </div>
           
-          <div className="max-w-2xl mx-auto text-center">
+          <div className="grid md:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
             {/* Contact Info */}
-            <div className="text-white">
+            <div className="text-white text-center md:text-left">
               <h3 className="text-3xl font-display font-bold mb-8">Got questions? Want to chat beer?</h3>
               
               <div className="space-y-6 mb-8">
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center md:justify-start">
                   <i className="fas fa-map-marker-alt papita-yellow mr-4 text-2xl"></i>
                   <div>
                     <a href="https://maps.google.com/?q=St.+Charles,+MO" target="_blank" rel="noopener noreferrer" className="text-xl font-semibold hover:underline">St. Charles, MO</a>
                   </div>
                 </div>
                 
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center md:justify-start">
                   <i className="fas fa-envelope papita-yellow mr-4 text-2xl"></i>
                   <div>
                     <a href="mailto:david.kocs@papitabrewing.com" className="text-xl font-semibold hover:underline">david.kocs@papitabrewing.com</a>
@@ -44,7 +44,7 @@ export default function Contact() {
             </div>
             
             {/* Fun beer quote image */}
-            <div className="mt-12 flex justify-center">
+            <div className="flex justify-center">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 max-w-sm">
                 <img 
                   src={beerQuoteImage} 
