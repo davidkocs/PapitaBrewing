@@ -13,10 +13,10 @@ export default function About() {
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              {/* Brewery founders working with brewing equipment */}
+              {/* Papita Brewing glass with sloth mascot logo */}
               <img 
-                src="https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-                alt="Brewery founders crafting beer" 
+                src="@assets/result_1611708279095_1751229553705.jpg" 
+                alt="Papita Brewing glass with sloth mascot logo" 
                 className="rounded-xl shadow-lg w-full h-auto"
               />
             </div>
