@@ -1,4 +1,5 @@
 // Contact component without form - displays contact information only
+import beerQuoteImage from "@assets/FB_IMG_1500294487723_1751229763762.jpg";
 
 export default function Contact() {
   // Function to scroll to different sections
@@ -39,6 +40,17 @@ export default function Contact() {
                     <a href="mailto:david.kocs@papitabrewing.com" className="text-xl font-semibold hover:underline">david.kocs@papitabrewing.com</a>
                   </div>
                 </div>
+              </div>
+            </div>
+            
+            {/* Fun beer quote image */}
+            <div className="mt-12 flex justify-center">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 max-w-sm">
+                <img 
+                  src={beerQuoteImage} 
+                  alt="Funny craft beer quote about drinking as a hobby" 
+                  className="rounded-lg shadow-md w-full h-auto"
+                />
               </div>
             </div>
           </div>
