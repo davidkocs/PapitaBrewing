@@ -19,7 +19,7 @@ export default function About() {
               <img 
                 src={papitaGlassImage} 
                 alt="Papita Brewing glass with sloth mascot logo" 
-                className="rounded-xl shadow-lg max-w-xs h-auto"
+                className="rounded-xl shadow-lg w-64 h-auto"
               />
             </div>
             <div>
