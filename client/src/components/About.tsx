@@ -1,3 +1,5 @@
+import papitaGlassImage from "@assets/result_1611708279095_1751229553705.jpg";
+
 export default function About() {
   return (
     <section id="about" className="py-20 bg-gray-50 sloth-pattern">
@@ -15,7 +17,7 @@ export default function About() {
             <div>
               {/* Papita Brewing glass with sloth mascot logo */}
               <img 
-                src="@assets/result_1611708279095_1751229553705.jpg" 
+                src={papitaGlassImage} 
                 alt="Papita Brewing glass with sloth mascot logo" 
                 className="rounded-xl shadow-lg w-full h-auto"
               />
