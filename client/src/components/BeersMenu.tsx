@@ -103,7 +103,11 @@ export default function BeersMenu() {
               <img 
                 src={beer.image} 
                 alt={`${beer.name} beer`} 
-                className="w-full h-64 object-contain bg-gray-100"
+                className="w-full h-64 object-contain bg-white image-rendering-crisp"
+                style={{
+                  imageRendering: 'crisp-edges',
+                  filter: 'contrast(1.1) brightness(1.05)'
+                }}
               />
               <div className="p-6 flex-1 flex flex-col">
                 <h3 className="text-2xl font-display font-bold papita-brown mb-2">{beer.name}</h3>
