@@ -115,6 +115,11 @@ This is a full-stack web application for Papita Brewing, a craft brewery website
   - Removed all form components and JavaScript state management
   - Centered contact info layout with improved styling
   - Website now fully static, ready for any hosting provider
+- July 11, 2025: Added new beer "To Have and To Haze" to menu
+  - Added 5.9% ABV, 75 IBU Mango Citra Milkshake IPA
+  - Positioned as second-to-last beer in menu lineup
+  - Includes wedding celebration story and tropical-themed image
+  - Features palm trees and wedding rings design matching beer theme
 
 ## User Preferences
 

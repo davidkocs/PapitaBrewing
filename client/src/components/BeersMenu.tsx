@@ -5,6 +5,7 @@ import applesOfMyEyeImage from "@assets/ApplesOfMyEye_1750876020824.jpg";
 import iDoHefeweizen from "@assets/I DO Hefeweizen option 2_1750876155957.jpg";
 import hoppilyEverAfterImage from "@assets/Hoppily Wheat Ale Final_1750890179307.png";
 import hairOfThePhogImage from "@assets/20160104_195455_1750891192618.jpg";
+import toHaveAndToHazeImage from "@assets/IMG_20250711_133849_1752259793456.png";
 
 export default function BeersMenu() {
   const beers = [
@@ -55,6 +56,14 @@ export default function BeersMenu() {
       description: "Light, easy-drinking ale with a crisp finish. Commemorates Zach and Jordyn's July 12, 2025 wedding celebration.",
       price: "$6.50",
       image: hoppilyEverAfterImage
+    },
+    {
+      name: "To Have and To Haze",
+      abv: "5.9% ABV",
+      ibu: "75 IBU",
+      description: "A refreshing Mango Citra Milkshake IPA brewed in the spirit of celebration. When the groom's parents wanted more beer to fuel the pre- and post-wedding festivities, this juicy tribute to friendship was born.",
+      price: "$7.50",
+      image: toHaveAndToHazeImage
     },
     {
       name: "Apples of My Eye",
