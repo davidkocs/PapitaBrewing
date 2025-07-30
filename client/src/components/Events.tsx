@@ -31,7 +31,7 @@ export default function Events() {
       textColor: "text-white"
     },
     {
-      date: "1",
+      date: "6",
       month: "DEC",
       title: "Crimson Christmas Ale",
       description: "Get festive. Get hoppy. We are releasing our hoppy red ale bringing piney hops and toasty malt together in perfect holiday harmony. Bold, bright, and brewed for the season.",
