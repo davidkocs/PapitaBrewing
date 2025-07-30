@@ -24,7 +24,7 @@ export default function Events() {
       date: "1",
       month: "NOV",
       title: "Chips in Chips Stout",
-      description: "A rich, chocolate-forward stout with a playful twist on David's famous chips in chips snack. Smooth, bold, and full of flavor.",
+      description: "It's release time for our tasty Fall stout. A rich, chocolate-forward stout with a playful twist on David's famous chips in chips snack. Smooth, bold, and full of flavor.",
       time: "6:00 PM - 9:00 PM",
       price: "Special Release",
       bgColor: "bg-papita-brown",
