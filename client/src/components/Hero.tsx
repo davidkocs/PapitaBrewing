@@ -1,5 +1,5 @@
 import papitaLogo from "@assets/Papita Brewing - logo_1750859264654.jpg";
-import breweryBg from "@assets/20230708_161210_1750965949036.jpg";
+import breweryBg from "@assets/20201006_191609_1750965949029.jpg";
 
 export default function Hero() {
   const scrollToBeers = () => {
