@@ -21,13 +21,13 @@ export default function Events() {
       textColor: "text-white"
     },
     {
-      date: "1",
+      date: "8",
       month: "NOV",
       title: "Chips in Chips Stout",
       description: "It's release time for our tasty Fall stout. A rich, chocolate-forward stout with a playful twist on David's famous chips in chips snack. Smooth, bold, and full of flavor.",
       time: "6:00 PM - 9:00 PM",
       price: "Special Release",
-      bgColor: "bg-papita-brown",
+      bgColor: "bg-papita-blue",
       textColor: "text-white"
     },
     {
