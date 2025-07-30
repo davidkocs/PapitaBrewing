@@ -19,6 +19,16 @@ export default function Events() {
       price: "Limited Release",
       bgColor: "bg-papita-brown",
       textColor: "text-white"
+    },
+    {
+      date: "1",
+      month: "NOV",
+      title: "Chips in Chips Stout",
+      description: "A rich, chocolate-forward stout with a playful twist on David's famous chips in chips snack. Smooth, bold, and full of flavor.",
+      time: "6:00 PM - 9:00 PM",
+      price: "Special Release",
+      bgColor: "bg-papita-brown",
+      textColor: "text-white"
     }
   ];
 
