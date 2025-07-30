@@ -25,7 +25,7 @@ export default function Hero() {
           backgroundImage: `url(${breweryBg})`
         }}
       ></div>
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-30"></div>
       
       <div className="relative z-10 text-center text-white px-4">
         <img src={papitaLogo} alt="Papita Brewing Logo" className="mx-auto mb-8 h-40 w-40 rounded-xl shadow-2xl object-contain bg-white p-2" />
