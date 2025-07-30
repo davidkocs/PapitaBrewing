@@ -3,7 +3,7 @@ export default function Events() {
     {
       date: "1",
       month: "AUG",
-      title: "Summer Beers",
+      title: "Summer Beer",
       description: "What's more refreshing than a creamy, juicy milkshake IPA bursting with fruit flavor. We are releasing sunshine in a glass - Raspberry Phog. Chill one, sip slow, and let summer happen.",
       time: "7:00 PM - 9:00 PM",
       price: "Free Entry",
