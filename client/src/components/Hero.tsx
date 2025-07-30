@@ -1,5 +1,4 @@
 import papitaLogo from "@assets/Papita Brewing - logo_1750859264654.jpg";
-import breweryBg from "@assets/20201006_191609_1750965949029.jpg";
 
 export default function Hero() {
   const scrollToBeers = () => {
@@ -18,11 +17,11 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center">
-      {/* Background image: Authentic Papita Brewing interior */}
+      {/* Background image: Craft brewery interior with warm lighting and beer barrels */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
         style={{
-          backgroundImage: `url(${breweryBg})`
+          backgroundImage: "url('https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080')"
         }}
       ></div>
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
