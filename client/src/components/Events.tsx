@@ -29,6 +29,16 @@ export default function Events() {
       price: "Special Release",
       bgColor: "bg-papita-brown",
       textColor: "text-white"
+    },
+    {
+      date: "1",
+      month: "DEC",
+      title: "Crimson Christmas Ale",
+      description: "Get festive. Get hoppy. We are releasing our hoppy red ale bringing piney hops and toasty malt together in perfect holiday harmony. Bold, bright, and brewed for the season.",
+      time: "5:00 PM - 9:00 PM",
+      price: "Holiday Release",
+      bgColor: "bg-papita-red",
+      textColor: "text-white"
     }
   ];
 
